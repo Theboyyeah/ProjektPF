@@ -26,7 +26,7 @@ object Zadanie3 extends cask.MainRoutes{
 
     val wynik: List[Int] = lista match {
       case Seq() => Nil
-      case _ +: reszta => reszta.toList
+      case _ +: resztaListy => resztaListy.toList
     }
 
 
