@@ -1,16 +1,23 @@
 package app
 
-object Zadanie3 {
-  @cask.postJson("/Delete")
-  def usunPierwszyElementListy[A](lista: Seq[A]): List[A] = lista match {
-    case Nil =>Nil
-    case
+import app.Zadanie1.initialize
 
-  }
+object Zadanie3 extends cask.MainRoutes{
 
+  @cask.postJson("/usuwanie")
+  def usuwanieEndpoint(data: ujson.Value): ujson.Value ={
+    val lista = data("List").arr.map(_.num.toInt)
+    val wynik = usuwanie(lista)
 
-
+    ujson.Obj("Wynik usuwania elemntu z listy" -> ujson.Arr(wynik.map(a => ujson.Num(a)).toSeq*))
 
 }
+  def usuwanie[A](lista: Seq[A]): List[A] = lista match {
+    case Seq() => Nil
+    case _+: resztaListy => resztaListy.toList
+  }
+
+  initialize()
+
 
 }
