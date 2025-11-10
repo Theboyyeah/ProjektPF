@@ -23,18 +23,7 @@ object Zadanie3 extends cask.MainRoutes{
    */
 
 
-  @cask.postJson("/usuwanie")
-  def usuwanie(lista: Seq[Int]): ujson.Value = {
-    //val lista = data("List").arr.map(_.num.toInt).toList
 
-    val wynik: List[Int] = lista match {
-      case Seq() => Nil
-      case _ +: resztaListy => resztaListy.toList
-    }
-
-
-    ujson.Obj("Wynik usuwania elemntu z listy" -> ujson.Arr(wynik.map(a => ujson.Num(a)).toSeq *))
-  }
 
 
 
