@@ -27,7 +27,7 @@ function funcPromise(liczba){
 app.post("/isPrime",(req,res)=>{
     const {liczba}=req.body;
 
-    funcPromise(licbza).then(result=>res.json({result}));
+    funcPromise(liczba).then(result=>res.json({result}));
 });
 
 app.listen(3000, () => console.log("serwer powinien działa bruh"));
