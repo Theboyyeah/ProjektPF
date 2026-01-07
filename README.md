@@ -36,6 +36,9 @@ Należy zaimplementowaś w j. JavaScript endpointy, które:
 
 ✅3.0 zwróci wartość binarną czy podana na wejściu liczba jest liczbą
 pierwszą; wykorzysta Promise
+https://github.com/Theboyyeah/ProjektPF/commit/24bd6e4
+https://github.com/Theboyyeah/ProjektPF/commit/28586a2 
+https://github.com/Theboyyeah/ProjektPF/commit/6211fb8 
 
  ❌ 3.5  zwróci posortowaną listę; wykorzysta Promise
 
