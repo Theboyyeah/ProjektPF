@@ -31,6 +31,25 @@ object
  ❌5.0 zwróci wynik funkcji concatenate na dwóch listach (parametry),
 która zwraca jedną listę
 
+Zadanie4:
+Należy wykorzystać typ opcjonalny i rozszerzyć endpointy o endpoint,
+który:
+✅3.0 zwróci taki sam wynik jak zad.1 4.5 ale wykorzysta typ opcjonalny
+https://github.com/Theboyyeah/ProjektPF/commit/5b78091 
+
+❌3.5 zwroci wariancję z listy; do implementacji wykorzystać należy typ
+opcjonalny
+
+❌4.0 zwróci listę (option), która jest wynikiem połączenia dwóch list
+(option); w przypadku gdy jedna z list jest None, funkcja powinna
+zwrócić None
+
+❌4.5 zwróci listę za pomocą metody mojeMap[A,B,C](a: Option[A], b:
+Option[B])(f:(A,B)=>C):Option[C]; należy wykorzystać metodę flatMap
+oraz map
+
+❌5.0 zwróci taki średnią (mean) z listy zwracając Either
+
 Zadanie 9:
 Należy zaimplementowaś w j. JavaScript endpointy, które:
 
