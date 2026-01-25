@@ -9,7 +9,7 @@ object Zadanie5 extends cask.MainRoutes{
   def zliczLiczbyWliscie(lista: List[Int]) = {
     val listaRead = read[List[Int]](listaRead)
 
-    val result = lista.groupBy(identity).map { case (k, v) => k -> v.size }
+    val result = listaRead.groupBy(identity).map { case (k, v) => k -> v.size }
     write(result)
 
   }
