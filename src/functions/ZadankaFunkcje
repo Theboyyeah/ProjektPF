@@ -1,0 +1,87 @@
+const { app } = require('@azure/functions');
+
+// Funkcja 1Sprawdza czy dan funckaj jest parzysta 1 jesli tak 0 jesli nie
+app.http('parzysta', {
+    methods: ['GET', 'POST'],
+    authLevel: 'anonymous',
+    handler: async (request, context) => {
+        context.log('Sprawdzanie parzystości');
+        
+    
+        let num;
+        if (request.query.get('num')) {
+            num = parseInt(request.query.get('num'));
+        } else {
+            const body = await request.json();
+            num = body.num;
+        }
+        
+        const isEven = num % 2 === 0;
+        
+        return { 
+            jsonBody: { 
+                liczba: num,
+                czyParzysta: isEven 
+            } 
+        };
+    }
+});
+
+// Funkcja 2 sprawdza czy dane słowo to słowo klucz w moim przypadku jest to sa'camochód' jesli słowo rpzesłane
+// = samocchd to zwraca 1 jesli nie to 0
+app.http('sprawdzSlowo', {
+    methods: ['GET', 'POST'],
+    authLevel: 'anonymous',
+    handler: async (request, context) => {
+        context.log('Sprawdzanie słowa');
+        
+        // Pobierz słowo z query (?slowo=samochod) lub body JSON
+        let slowo;
+        if (request.query.get('slowo')) {
+            slowo = request.query.get('slowo');
+        } else {
+            const body = await request.json();
+            slowo = body.slowo;
+        }
+        
+        const czyPoprawne = slowo === 'samochód';
+        
+        return { 
+            jsonBody: { 
+                otrzymaneSlowo: slowo,
+                czyPoprawne: czyPoprawne,
+                komunikat: czyPoprawne ? 'Tak, to samochód!' : 'Nie, to nie samochód'
+            } 
+        };
+    }
+});
+
+// Funkcja 3 to obliczanie silni dla np silnia 5 itd
+app.http('silnia', {
+    methods: ['GET', 'POST'],
+    authLevel: 'anonymous',
+    handler: async (request, context) => {
+        context.log('Obliczanie silni');
+        
+  
+        let n;
+        if (request.query.get('n')) {
+            n = parseInt(request.query.get('n'));
+        } else {
+            const body = await request.json();
+            n = body.n;
+        }
+        
+        let wynik = 1;
+        for (let i = 2; i <= n; i++) {
+            wynik *= i;
+        }
+        
+        return { 
+            jsonBody: { 
+                n: n,
+                silnia: wynik
+            } 
+        };
+    }
+});
