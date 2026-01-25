@@ -3,7 +3,7 @@ package app
 object Zadanie1 extends cask.MainRoutes{
 
 
-  /*
+
 //1 sposób
   @cask.postJson("/sum")
   def sumLists(List1: Seq[Int],List2: Seq[Int],List3: Seq[Int]): ujson.Value= {
@@ -61,6 +61,6 @@ drugi sposób bo z pierwszym miałem kilka probleów ale teraz powinno byc wszyt
     ujson.Arr(listWithHead.map(a => ujson.Num(a)).toSeq*)
   }
 
-*/
-  initialize()
+
+ // initialize()
 }

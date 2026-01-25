@@ -1,4 +1,4 @@
-package app
+/*package app
 
 object Zadanie4 extends cask.MainRoutes {
 
@@ -16,3 +16,6 @@ object Zadanie4 extends cask.MainRoutes {
 
 
 }
+
+
+ */
