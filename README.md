@@ -50,6 +50,24 @@ oraz map
 
 ❌5.0 zwróci taki średnią (mean) z listy zwracając Either
 
+Zadanie 5:
+Należy rozszerzyć endpointy o endpoint, który:
+✅3.0 zwróci słownik z liczbą powtarzających się liczb za pomocą funkcji
+mapreduce dla list z liczbami
+https://github.com/Theboyyeah/ProjektPF/commit/0bab314 
+❌3.5 zwróci słownik z liczbami podniesionymi do sześcianu za pomocą
+funkcji mapreduce dla list z liczbami
+
+❌4.0  zwróci słownik (student, godziny nauki), która wykorzysta funkcją
+mapreduce oraz groupBy dla słownika na wejściu
+
+❌4.5 zwróci słownik (zdanie, wektor), która wykorzysta funkcję
+mapreduce oraz bagOfWords
+
+❌5.0 zwróci słownik (student, średnia ocen), która wykorzysta funkcję
+mapreduce oraz join; na wejściu  są dwie listy: (numer_indeksu,
+student), (numer_indeksu, kurs, ocena)
+
 Zadanie 9:
 Należy zaimplementowaś w j. JavaScript endpointy, które:
 
