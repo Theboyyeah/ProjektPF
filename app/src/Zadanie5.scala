@@ -1,23 +1,18 @@
 package app
 
-// bibliotka do zamiennia wygodniejszego obiektów sakli na json
-import upickle.default._
+import ujson._
 
-object Zadanie5 extends cask.MainRoutes{
 
-  @cask.postJson("/Mapa")
-  def zliczLiczbyWliscie(lista: List[Int]) = {
-    val listaRead = read[List[Int]](listaRead)
+object Zadanie5 extends cask.MainRoutes {
 
-    val result = listaRead.groupBy(identity).map { case (k, v) => k -> v.size }
-    write(result)
+  @cask.post("/count")
+  def zliczanieLiczb(lista: cask.Request): ujson.Value = {
+    val numbers = ujson.read(lista.text()).arr.map(_.num.toInt).toList
 
+    val result = numbers.groupBy(identity).map { case (number, list) => (number.toString, Num(list.length)) }
+
+    Obj.from(result)
   }
 
-
-
- initialize()
-
-
-
+  initialize()
 }
