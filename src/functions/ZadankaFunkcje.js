@@ -7,7 +7,7 @@ app.http('parzysta', {
     handler: async (request, context) => {
         context.log('Sprawdzanie czy liczba jest parzysta');
         
-        // Pobierz liczbę z query (?num=5) lub body JSON
+
         let num;
         if (request.query.get('num')) {
             num = parseInt(request.query.get('num'));
