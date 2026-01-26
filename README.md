@@ -92,8 +92,7 @@ funkcję map
 
 
 Zadanie 10:
-https://github.com/Theboyyeah/ProjektPF/commit/52417f3
+https://github.com/Theboyyeah/ProjektPF/commit/8f36c7f
 niestety na tę chwilę nie mogę wysąłć na Azure więc narazie zostawiam tutaj w readme
-P.S
- w sprawdzeni 3 w zestawie 10  funkcji powinno być 'samochod" a nie "samochód" 
+
 
