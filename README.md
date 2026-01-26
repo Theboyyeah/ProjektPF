@@ -51,10 +51,12 @@ oraz map
 ❌5.0 zwróci taki średnią (mean) z listy zwracając Either
 
 Zadanie 5:
+
 Należy rozszerzyć endpointy o endpoint, który:
 ✅3.0 zwróci słownik z liczbą powtarzających się liczb za pomocą funkcji
 mapreduce dla list z liczbami
-https://github.com/Theboyyeah/ProjektPF/commit/0bab314 
+
+https://github.com/Theboyyeah/ProjektPF/commit/708d82f 
 ❌3.5 zwróci słownik z liczbami podniesionymi do sześcianu za pomocą
 funkcji mapreduce dla list z liczbami
 
