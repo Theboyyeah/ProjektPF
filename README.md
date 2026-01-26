@@ -79,7 +79,7 @@ list na wejściu; wykorzystaj funkcję sprowadzi funkcję z trzema
 argumentami, do funkcji z dwoma
 
 ✅4.0 Zaimplementuj funkcję setHead, która doda element na początku
-listyhttps://github.com/Theboyyeah/ProjektPF/commit/e876b17 
+listy https://github.com/Theboyyeah/ProjektPF/commit/e876b17 
 
 ❌4.5 Zaimplementuj funkcję append, która doda element we wskazanym
 miejscu w liście
