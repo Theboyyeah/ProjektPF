@@ -13,3 +13,9 @@ pid:78707 2026-01-25T21:21:11.997468 [t27] props {"library.jline.path":"/Users/m
 pid:78707 2026-01-25T21:21:12.065843 [t28] connection handler finished, sending exitCode 0 to client
 pid:78707 2026-01-25T21:21:12.067716 [t27] done=true, idle=true, lastClientAlive=true
 pid:78707 2026-01-25T21:21:12.074979 [t27] 0 active connections
+pid:78707 2026-01-25T21:51:12.078739 [t26] shutting down due inactivity
+pid:78707 2026-01-25T21:51:12.096132 [t1] removing /Users/maciejserafin/Desktop/ProjektyPF/cask-examples-0-4/app/src/out/mill-daemon/socketPort
+pid:78707 2026-01-25T21:51:12.102796 [t1] removed /Users/maciejserafin/Desktop/ProjektyPF/cask-examples-0-4/app/src/out/mill-daemon/socketPort
+pid:78707 2026-01-25T21:51:12.103303 [t1] releasing daemonLock
+pid:78707 2026-01-25T21:51:12.103982 [t1] daemonLock released
+pid:78707 2026-01-25T21:51:12.110904 [t1] exiting server
