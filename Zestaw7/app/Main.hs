@@ -29,5 +29,5 @@ main :: IO ()
 main = scotty 3000 $
   post "/setHead" $ do
     n <- liftIO randomValue
-     json $ Output n
+    json $ Output n
 
