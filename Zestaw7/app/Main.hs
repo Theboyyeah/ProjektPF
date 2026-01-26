@@ -7,9 +7,15 @@ module Main (main) where
 import Web.Scotty
 import Data.Aeson
 import GHC.Generics
+import System.Random (randomRIO)
 
-maxValue :: Integer
+
+randomValue :: IO Int
+randomValue randomRIO (0,maxBount,Int)
+
 
 
 main :: IO ()
-main = putStrLn "Hello, Haskell!"
+main = scotty 3000 $
+  post "/setHead" $ do
+
