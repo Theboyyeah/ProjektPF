@@ -1,51 +1,37 @@
-import Web.Scotty
-
-
-import Data.Aeson
-import GHC.Generics
+{-# LANGUAGE DeriveGeneric #-}
+{-# LANGUAGE OverloadedStrings #-}
 
 module Main (main) where
+
+import Web.Scotty
+import Data.Aeson
+import GHC.Generics
+import Data.Text.Lazy (Text)
     
 
 setHead :: a -> [a] -> [a]
 setHead x xs = x : xs
+
 data Input = Input{
-    head :: Int , list :: [Int]
+    newHead :: Int , list :: [Int]
 
-}deriving (Show, Generic)
+} deriving (Show, Generic)
 
+instance FromJSON Input
 
 data Output = Output {
     newList :: [Int]
 
-}deriving (Show, Generic)
+} deriving (Show, Generic)
 
-instance FromJSON Input
-instance ToJSON Output
-
-setHead :: a -> [a] -> [a]
-setHead x xs = x : xs
-data Input = Input{
-    head :: Int , list :: [Int]
-
-}deriving (Show, Generic)
-
-
-instance FromJSON Input
-
-
-data Output = Output {
-    newList :: [Int]
-
-}deriving (Show, Generic)
 
 instance ToJSON Output
 
 main :: IO ()
 main = scotty 3000 $
-  get "/:word" $ do
+  post "/setHead" $ do
     input <- jsonData :: ActionM Input
 
-    let resultList = setHead (head input) (list input)
+    let resultList = setHead (newHead input) (list input)
 
     json (Output resultList)
