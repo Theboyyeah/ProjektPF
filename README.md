@@ -96,6 +96,7 @@ Double, Double) wykorzystując funkcje z ocen 3.0 oraz 3.5
 ❌4.5 zwróci wartość jak w funkcji 3.5, ale wykorzysta map
 ❌5.0 zwróci wartość jak w funkcji 3.5, ale wykorzysta flatMap
 https://github.com/Theboyyeah/ProjektPF/commit/562ad02 
+(Main.hs lub Main pliki bo wysłałem wszytskie nraz niestety)
 
 
 Zadanie 9:
