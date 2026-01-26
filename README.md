@@ -70,6 +70,24 @@ mapreduce oraz bagOfWords
 mapreduce oraz join; na wejściu  są dwie listy: (numer_indeksu,
 student), (numer_indeksu, kurs, ocena)
 
+Zadanie 6:
+❌3.0 Zaimplementuj funkcję isSorted, która sprawdza czy dana funkcja
+jest posortowana zgodnie z podaną funkcją porównawczą
+
+❌3.5 Zaimplementuj funkcję, która zsumuje liczby po wierszach z trzech
+list na wejściu; wykorzystaj funkcję sprowadzi funkcję z trzema
+argumentami, do funkcji z dwoma
+
+✅4.0 Zaimplementuj funkcję setHead, która doda element na początku
+listyhttps://github.com/Theboyyeah/ProjektPF/commit/e876b17 
+
+❌4.5 Zaimplementuj funkcję append, która doda element we wskazanym
+miejscu w liście
+
+❌5.0 Zaimplementuj funkcję, która policzy kwadrat liczb z dwóch list
+(po wierszach) za pomocą funkcji map oraz funkcji anonimowej
+
+
 Zadanie 9:
 Należy zaimplementowaś w j. JavaScript endpointy, które:
 
