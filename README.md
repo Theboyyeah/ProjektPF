@@ -92,7 +92,7 @@ funkcję map
 
 
 Zadanie 10:
-https://github.com/Theboyyeah/ProjektPF/commit/8f36c7f
+https://github.com/Theboyyeah/ProjektPF/commit/d45ft5ft
 niestety na tę chwilę nie mogę wysąłć na Azure więc narazie zostawiam tutaj w readme
 
 
