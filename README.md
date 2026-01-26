@@ -88,4 +88,7 @@ pulę workterów
 
  ❌5.0 zwróci wynik funkcji z zad. 5 na 4.5; wykorzysta Promise.all oraz
 funkcję map
+Zadanie 10:
+https://github.com/Theboyyeah/ProjektPF/commit/3d78150 
+niestety na tę chwilę nie mogę wysąłć na Azure więc narazie zostawiam tutaj w readme
 
