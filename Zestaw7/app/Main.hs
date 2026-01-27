@@ -7,8 +7,6 @@ import Web.Scotty
 import Data.Aeson (ToJSON)
 import GHC.Generics 
 import System.Random (randomRIO)
---import Control.Monad.IO.Class (liftIO)
-
 
 randomValue :: IO Int
 randomValue  = randomRIO (0,maxBound :: Int)
