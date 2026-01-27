@@ -98,6 +98,8 @@ Double, Double) wykorzystując funkcje z ocen 3.0 oraz 3.5
 https://github.com/Theboyyeah/ProjektPF/commit/562ad02 
 (Main.hs lub Main pliki bo wysłałem wszytskie nraz niestety)
 
+Zadanie 8:
+
 Należy zaimplementować w Haskellu endpointy, które:
 ❌3.0 wykorzysta metodę map fuktora do wykonania funkcji dodawania lub
 odejmowania na dwóch wartość przyjętych na wejściu
