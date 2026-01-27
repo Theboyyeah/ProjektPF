@@ -22,5 +22,11 @@ function isPrime(liczba){
 function funcPromise(liczba){
     return Promise.resolve(isPrime(liczba))
 }
+app.post("/isPrime",(req,res)=>{
+    const {liczba}=req.body;
 
+    funcPromise(liczba).then(result=>res.json({result}));
+});
+
+app.listen(3000, () => console.log("serwer powinien działa bruh"));
 

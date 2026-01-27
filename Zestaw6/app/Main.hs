@@ -6,7 +6,7 @@ module Main (main) where
 import Web.Scotty
 import Data.Aeson
 import GHC.Generics
-import Data.Text.Lazy (Text)
+--import Data.Text.Lazy (Text)
     
 
 setHead :: a -> [a] -> [a]
@@ -35,3 +35,12 @@ main = scotty 3000 $
     let resultList = setHead (newHead input) (list input)
 
     json (Output resultList)
+
+--sprawdzenie
+--curl -X POST http://localhost:3000/setHead \
+ -- -H "Content-Type: application/json" \
+ --d '{"newHead": 42, "list": [1,2,3]}'
+--
+--
+--
+--

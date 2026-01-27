@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BspLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="cask-examples-0-6" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="file://$PROJECT_DIR$/app/test" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="file://$PROJECT_DIR$/app" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="file://$PROJECT_DIR$/mill-synthetic-root-target" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="file://$PROJECT_DIR$/mill-build" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f90c9071-2df7-4caf-9bdb-01f5a277f6db" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Zestaw10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zestaw7/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zestaw7/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zestaw7/Zestaw7.cabal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zestaw7/app/Main.hs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zestaw7/dist-newstyle/cache/compiler" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zestaw7/dist-newstyle/cache/config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cask-examples-0-4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zadanie8/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zadanie8/app/Main.hs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zadanie8/zadanie8.cabal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zadanie9Projekt/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Zadanie9Projekt/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zestaw6/app/Main.hs" beforeDir="false" afterPath="$PROJECT_DIR$/../Zestaw6/app/Main.hs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zestaw6/app/Zadanie7" beforeDir="false" afterPath="$PROJECT_DIR$/../Zestaw7/Zadanie7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zestaw6/dist-newstyle/cache/compiler" beforeDir="false" afterPath="$PROJECT_DIR$/../Zestaw6/dist-newstyle/cache/compiler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zestaw6/dist-newstyle/cache/config" beforeDir="false" afterPath="$PROJECT_DIR$/../Zestaw6/dist-newstyle/cache/config" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="38qxHojtZ6VhAFwBVjSq4wZ3jx0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/maciejserafin/Desktop/ProjektyPF/cask-examples-0-6"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f90c9071-2df7-4caf-9bdb-01f5a277f6db" name="Changes" comment="" />
+      <created>1769540818474</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1769540818474</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
