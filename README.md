@@ -143,5 +143,8 @@ Zadanie 10:
 https://github.com/Theboyyeah/ProjektPF/commit/d3da12f
 
 niestety na tę chwilę nie mogę wysąłć na Azure więc narazie zostawiam tutaj w readme
+P.S
+w 2 funckji zwraca wrtosc a nie 1 lub 0 bo zapomniałem dodać pewnego elemntu(const czyPoprawne = slowo === 'samochod' ? 1 : 0;) jak w funkcji 1 ale sam funckja powinna działać
+
 
 
