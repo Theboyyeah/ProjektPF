@@ -35,7 +35,7 @@ Zadanie4:
 Należy wykorzystać typ opcjonalny i rozszerzyć endpointy o endpoint,
 który:
 ✅3.0 zwróci taki sam wynik jak zad.1 4.5 ale wykorzysta typ opcjonalny
-https://github.com/Theboyyeah/ProjektPF/commit/5b78091 
+https://github.com/Theboyyeah/ProjektPF/commit/4f479de
 
 ❌3.5 zwroci wariancję z listy; do implementacji wykorzystać należy typ
 opcjonalny
