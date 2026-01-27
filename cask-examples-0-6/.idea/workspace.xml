@@ -38,23 +38,8 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f90c9071-2df7-4caf-9bdb-01f5a277f6db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Zestaw10" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Zestaw7/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Zestaw7/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Zestaw7/Zestaw7.cabal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Zestaw7/app/Main.hs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Zestaw7/dist-newstyle/cache/compiler" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Zestaw7/dist-newstyle/cache/config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cask-examples-0-4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zadanie8/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zadanie8/app/Main.hs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zadanie8/zadanie8.cabal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Zadanie9Projekt/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Zadanie9Projekt/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Zestaw6/app/Main.hs" beforeDir="false" afterPath="$PROJECT_DIR$/../Zestaw6/app/Main.hs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Zestaw6/app/Zadanie7" beforeDir="false" afterPath="$PROJECT_DIR$/../Zestaw7/Zadanie7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Zestaw6/dist-newstyle/cache/compiler" beforeDir="false" afterPath="$PROJECT_DIR$/../Zestaw6/dist-newstyle/cache/compiler" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Zestaw6/dist-newstyle/cache/config" beforeDir="false" afterPath="$PROJECT_DIR$/../Zestaw6/dist-newstyle/cache/config" afterDir="false" />
+    <list default="true" id="2aa9c2fd-9a75-4698-a829-40a6f31db3cb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,13 +69,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/maciejserafin/Desktop/ProjektyPF/cask-examples-0-6"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/maciejserafin/Desktop/ProjektyPF/cask-examples-0-6&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
