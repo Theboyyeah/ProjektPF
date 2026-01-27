@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="file://$MODULE_DIR$/../../app/test" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="BSP" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_X">
+    <output-test url="file://$MODULE_DIR$/../../out/mill-bsp-out/app/test/bspBuildTargetCompileMerged.dest" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../app/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../app/test/src" isTestSource="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../out/mill-bsp-out/app/test/compileGeneratedSources.dest">
+      <sourceFolder url="file://$MODULE_DIR$/../../out/mill-bsp-out/app/test/compileGeneratedSources.dest" isTestSource="true" generated="true" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="jdk" jdkName="20" jdkType="JavaSDK" />
+    <orderEntry type="module" module-name="app" exported="" scope="TEST" />
+    <orderEntry type="library" scope="TEST" name="BSP: Java-WebSocket-1.5.3" level="project" />
+    <orderEntry type="module-library">
+      <library name="BSP: app.test dependencies">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="BSP: app.test test dependencies">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../app/compile-resources" />
+          <root url="file://$MODULE_DIR$/../../app/test/compile-resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jboss/xnio/xnio-nio/3.8.16.Final/xnio-nio-3.8.16.Final-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="TEST" name="BSP: cask-util_3-0.11.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: cask_3-0.11.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: castor_3-0.3.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: fansi_3-0.5.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: geny_3-1.1.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: jboss-logging-3.4.3.Final" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: jboss-threads-3.5.0.Final" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: pprint_3-0.9.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: requests_3-0.9.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: scala-library-2.13.16" level="project" />
+    <orderEntry type="module-library">
+      <library name="BSP: scala-sdk-3.7.3">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="TEST" name="BSP: scala3-library_3-3.7.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: slf4j-api-1.7.25" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: sourcecode_3-0.4.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: test-interface-1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: ujson_3-4.0.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: undertow-core-2.3.18.Final" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: upack_3-4.0.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: upickle-core_3-4.0.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: upickle-implicits_3-4.0.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: upickle_3-4.0.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: utest_3-0.8.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: wildfly-client-config-1.0.1.Final" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: wildfly-common-1.6.0.Final" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: xnio-api-3.8.16.Final" level="project" />
+  </component>
+</module>

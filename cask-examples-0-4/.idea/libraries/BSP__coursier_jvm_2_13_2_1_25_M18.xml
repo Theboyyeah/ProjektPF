@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="BSP: coursier-jvm_2.13-2.1.25-M18">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-jvm_2.13/2.1.25-M18/coursier-jvm_2.13-2.1.25-M18.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-jvm_2.13/2.1.25-M18/coursier-jvm_2.13-2.1.25-M18-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

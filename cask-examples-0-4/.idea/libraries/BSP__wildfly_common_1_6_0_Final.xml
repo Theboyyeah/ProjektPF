@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="BSP: wildfly-common-1.6.0.Final">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wildfly/common/wildfly-common/1.6.0.Final/wildfly-common-1.6.0.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wildfly/common/wildfly-common/1.6.0.Final/wildfly-common-1.6.0.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

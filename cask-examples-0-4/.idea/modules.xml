@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app.test.iml" filepath="$PROJECT_DIR$/.idea/modules/app.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mill-build_.iml" filepath="$PROJECT_DIR$/.idea/modules/mill-build_.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mill-synthetic-root.iml" filepath="$PROJECT_DIR$/.idea/modules/mill-synthetic-root.iml" />
+    </modules>
+  </component>
+</project>

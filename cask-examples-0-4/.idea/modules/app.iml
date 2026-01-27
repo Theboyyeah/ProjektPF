@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="file://$MODULE_DIR$/../../app" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="BSP" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_X">
+    <output url="file://$MODULE_DIR$/../../out/mill-bsp-out/app/bspBuildTargetCompileMerged.dest" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../app">
+      <sourceFolder url="file://$MODULE_DIR$/../../app/src" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../out/mill-bsp-out/app/compileGeneratedSources.dest">
+      <sourceFolder url="file://$MODULE_DIR$/../../out/mill-bsp-out/app/compileGeneratedSources.dest" isTestSource="false" generated="true" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="jdk" jdkName="20" jdkType="JavaSDK" />
+    <orderEntry type="library" name="BSP: Java-WebSocket-1.5.3" level="project" />
+    <orderEntry type="module-library">
+      <library name="BSP: app dependencies">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../app/compile-resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jboss/xnio/xnio-nio/3.8.16.Final/xnio-nio-3.8.16.Final-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="BSP: app test dependencies">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="BSP: cask-util_3-0.11.3" level="project" />
+    <orderEntry type="library" name="BSP: cask_3-0.11.3" level="project" />
+    <orderEntry type="library" name="BSP: castor_3-0.3.0" level="project" />
+    <orderEntry type="library" name="BSP: fansi_3-0.5.0" level="project" />
+    <orderEntry type="library" name="BSP: geny_3-1.1.1" level="project" />
+    <orderEntry type="library" name="BSP: jboss-logging-3.4.3.Final" level="project" />
+    <orderEntry type="library" name="BSP: jboss-threads-3.5.0.Final" level="project" />
+    <orderEntry type="library" name="BSP: pprint_3-0.9.0" level="project" />
+    <orderEntry type="library" name="BSP: requests_3-0.9.0" level="project" />
+    <orderEntry type="library" name="BSP: scala-library-2.13.16" level="project" />
+    <orderEntry type="module-library">
+      <library name="BSP: scala-sdk-3.7.3">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="BSP: scala3-library_3-3.7.3" level="project" />
+    <orderEntry type="library" name="BSP: slf4j-api-1.7.25" level="project" />
+    <orderEntry type="library" name="BSP: sourcecode_3-0.4.2" level="project" />
+    <orderEntry type="library" name="BSP: ujson_3-4.0.2" level="project" />
+    <orderEntry type="library" name="BSP: undertow-core-2.3.18.Final" level="project" />
+    <orderEntry type="library" name="BSP: upack_3-4.0.2" level="project" />
+    <orderEntry type="library" name="BSP: upickle-core_3-4.0.2" level="project" />
+    <orderEntry type="library" name="BSP: upickle-implicits_3-4.0.2" level="project" />
+    <orderEntry type="library" name="BSP: upickle_3-4.0.2" level="project" />
+    <orderEntry type="library" name="BSP: wildfly-client-config-1.0.1.Final" level="project" />
+    <orderEntry type="library" name="BSP: wildfly-common-1.6.0.Final" level="project" />
+    <orderEntry type="library" name="BSP: xnio-api-3.8.16.Final" level="project" />
+    <orderEntry type="library" name="scala-sdk-2.12.10" level="application" />
+  </component>
+</module>
