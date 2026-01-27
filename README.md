@@ -98,6 +98,21 @@ Double, Double) wykorzystując funkcje z ocen 3.0 oraz 3.5
 https://github.com/Theboyyeah/ProjektPF/commit/562ad02 
 (Main.hs lub Main pliki bo wysłałem wszytskie nraz niestety)
 
+Należy zaimplementować w Haskellu endpointy, które:
+❌3.0 wykorzysta metodę map fuktora do wykonania funkcji dodawania lub
+odejmowania na dwóch wartość przyjętych na wejściu
+✅3.5 zwróci wartość konkatenacji trzech list za pomocą monoidy
+
+https://github.com/Theboyyeah/ProjektPF/commit/09e3adb 
+
+❌4.0 zwróci wartość sumy listy liczb lub zwróci nil; zaimplementuj
+wykorzystując monady   
+❌4.5 zwróci zadanie z zestawy 6 na ocenę 4.0 i wykorzysta metodę
+combine oraz join
+❌5.0 zwróci dla listy minimum 3 elementów typu int mapę: liczba
+elementów, suma,  wartość minimalna, wartość maksymalna; wykorzysta do
+tego monadę oraz metodę foldMap
+
 
 Zadanie 9:
 Należy zaimplementowaś w j. JavaScript endpointy, które:
