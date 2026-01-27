@@ -12,7 +12,8 @@ Zadanie 1
 
 Kod: Link do zadania 1
 
-https://github.com/user-attachments/assets/filmik/
+
+https://github.com/Theboyyeah/ProjektPF/blob/main/PierwszeZadanie.scala
 
 
 Zadanie 2 link do image:
